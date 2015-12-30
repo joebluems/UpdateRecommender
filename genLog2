@@ -1,0 +1,7 @@
+export MAHOUT_HOME=/Users/jblue/mahout-distribution-0.9
+$MAHOUT_HOME/bin/mahout itemsimilarity  \
+--input  wed_fri.trades \
+--output output2 \
+--similarityClassname SIMILARITY_LOGLIKELIHOOD  \
+--booleanData TRUE  \
+--tempDir temp
